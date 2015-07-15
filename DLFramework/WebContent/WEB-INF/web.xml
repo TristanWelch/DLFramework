@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>DLFramework</display-name>
+  <welcome-file-list>
+    <welcome-file>Dataprocessor.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Framework</display-name>
+    <servlet-name>Framework</servlet-name>
+    <servlet-class>Framework.Servlet.Framework</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Framework</servlet-name>
+    <url-pattern>/Framework</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Dataprocessor</display-name>
+    <servlet-name>Dataprocessor</servlet-name>
+    <servlet-class>framework.servlets.Dataprocessor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dataprocessor</servlet-name>
+    <url-pattern>/Dataprocessor</url-pattern>
+  </servlet-mapping>
+</web-app>

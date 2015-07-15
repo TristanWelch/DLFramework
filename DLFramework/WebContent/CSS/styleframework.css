@@ -1,0 +1,166 @@
+@CHARSET "ISO-8859-1";
+
+/* CSS Styling Relevant to the Header Frame */
+.headerframe {
+	height: 50px ;
+	width: 100% ;
+}
+
+.selectdropdown {
+	width: 155px !important;
+}
+
+.searchfield {
+	width:420px !important;
+	height: 50px !important;
+	padding-top: 5px !important;
+	padding-left: 10px !important;
+	display: inline-block;
+	margin-right:40px;
+}
+
+.searchinputfield {
+ width:180px !important;
+}
+
+.searchgrp{
+	display:inline-block !important;
+	width:420px !important;
+}
+
+.actionfield{
+	height: 50px !important;
+	padding-top: 5px !important;
+	margin-right:60px;
+	display: inline-block;
+}
+
+.optionsfield {
+	width: 80px !important;
+	height: 50px !important;
+	padding-top: 5px !important;
+	padding-left: 15px;
+	border-radius: 0px !important;
+}
+
+
+.optionbtn {
+	width: 50px;
+}
+
+
+.togglefield{
+	height: 50px !important;
+	padding-top: 5px !important;
+	left: -20px;
+}
+
+
+
+
+.hidedocumentlistbtn{
+	width:45px !important;
+	height:35px !important;
+}
+
+
+/* CSS Styling Relevant to the Document Tab Menu */
+.documenttabs {
+	height: 30px ;
+	width: 100% ;
+}
+
+.documenttabholder{
+	display: inline-block;
+	overflow-x:hidden !important;
+}
+
+.documenttablimit{
+	width:80%;
+	display:none;
+}
+
+.documenttabvalue{
+	padding-bottom:10px !important
+}
+
+.documenttabchoice{
+	padding-bottom:10px !important
+}
+
+.cleartabinfo{
+	height:31px !important;
+}
+.removebtn{
+	margin-left:7px !important;
+	height:25px !important;
+}
+
+.documentcleartabs{
+	height:31px !important;
+}
+
+/* CSS Styling Relevant to the Document Frame */
+.documentframe {
+	height: 600px !important;
+	width: 30%;
+	margin: 0px !important;
+}
+
+.documenttable{
+	overflow-y:scroll;
+	height:100%;
+	width:100%;
+}
+
+.documentpanel{
+	overflow-y:scroll;
+	height:100%;
+}
+/* CSS Styling Relevant to the View Frame */
+.viewframe {
+	height: 600px ;
+	width: 70% ;
+	margin: 0px !important;
+	display: table;
+	display: table-cell;
+	text-align: center;
+}
+
+/* CSS Styling for Applet */
+applet {
+	width: 100%;
+	height: 600px;
+}
+
+/* CSS Styling Overrides */
+.panel {
+	margin-bottom: 0px !important;
+	border-radius: 0px !important;
+	height: 100% !important;
+	padding: 0px !important;
+}
+
+.panel-body {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.well{
+	border-radius: 0px !important;
+}
+
+.tooltip-inner {
+    max-width: 150px;
+    /* If max-width does not work, try using width instead */
+    width: 150px; 
+}
+
+.dataTables_info{
+	display:none;
+}
+
+.dataTables_filter{
+	margin-top:10px;
+	margin-right:10px;
+}
