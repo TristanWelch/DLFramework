@@ -141,6 +141,17 @@ applet {
 	padding: 0px !important;
 }
 
+table{
+	width:100% !important;
+}
+
+th{
+	font-size:10px !important;
+}
+
+tr:hover{
+	background-color:#cccccc;
+}
 .panel-body {
 	padding: 0px !important;
 	margin: 0px !important;

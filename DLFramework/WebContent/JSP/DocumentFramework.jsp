@@ -138,12 +138,12 @@
 			<div class="panel-body documentpanel">
 				<table id="documenttable" class="documenttable">
 			 		<thead>
-			 			<th>2424</th>
-			 			<th>2424</th>
-			 			<th>2424</th>
-			 			<th>2424</th>
-			 			<th>2424</th>
-			 			<th>2424</th>
+			 			<th>H1</th>
+			 			<th>H2</th>
+			 			<th>H3</th>
+			 			<th>H4</th>
+			 			<th>H5</th>
+			 			<th>H6</th>
 			 		</thead>
 					<tbody>
 						<tr>
